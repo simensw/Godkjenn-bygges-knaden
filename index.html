@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Whac-a-Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Godkjenn byggesøknadene!</h1>
+  <h2 class="subtitle">Det hoper seg opp med søknader. Hvor mange klarer du å godkjenne på 15 sekunder?</h2>
+
+  <p>Poeng: <span id="score">0</span></p>
+  <p>Tid igjen: <span id="timer">15</span> sekunder</p>
+  <button id="start">Start spill</button>
+
+  <div class="grid">
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+    <div class="hole"></div>
+  </div>
+
+  <section id="highscores">
+    <h2>Topp 5 forsøk</h2>
+    <ol id="score-list"></ol>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
